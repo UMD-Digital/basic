@@ -1,3 +1,51 @@
+h1 {
+    font-family: $font-crimson;
+    font-size: 68px;
+    line-height: 68px;
+    color: $umd_red;
+    margin: 10px 0 20px 0; 
+}
+
+h2 {
+    font-family: $font-crimson;
+    font-size: 42px;
+    line-height: 42px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+}
+h2.source-sans {
+    font-family: $font-main;
+    font-size: 42px;
+    line-height: 42px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    text-transform: uppercase;
+}
+h3 {
+    font-family: $font-crimson;
+    font-size: 26px;
+    line-height: 26px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    font-weight: bold;
+}
+h3.source-sans {
+    font-family: $font-main;
+    font-size: 26px;
+    line-height: 26px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: $font-main;
+    font-size: 16px;
+    line-height: 16px;
+    color: $umd_red;
+    font-weight: bold;
+    margin: 0 0 20px 0; 
+}
 p {
     font-size: 16px;
     line-height: 26px;
@@ -197,6 +245,127 @@ p.lrg {
 .description {
     font-size: 21px;
     line-height: 34px;
+}
+
+.nav {
+        li {
+            font-size: 13px;
+            line-height: 39px;
+            
+            a {
+                padding: 0 15px;
+                color: $umd_gray;
+            }
+
+            &.title {
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $umd_red;
+                padding: 0 15px;
+            }
+        }
+
+}
+
+hr {
+    &.medium {
+        border-top-width: 3px;
+    }
+    &.large {
+        border-top-width: 5px;
+    }
+    &.xlarge {
+        border-top-width: 8px;
+    }
+}
+
+table {
+    thead {
+        tr {
+            th {
+                background-color: $umd_offwhite;
+                border-bottom: 0 !important;
+                letter-spacing: 1px;
+                font-weight: normal;
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+        }
+    }
+    tr {
+        td {
+            border-color: $umd_offwhite !important;
+        }
+    }
+}
+
+.panel-title > a:before {
+    float: left !important;
+    font-family: FontAwesome;
+    content:"\f068";
+    padding-right: 16px;
+    font-size: 13px;
+}
+.panel-title > a.collapsed:before {
+    float: left !important;
+    content:"\f067";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}
+.panel-group {
+    margin-bottom: 50px;
+}
+.panel {
+    border: 0;
+    box-shadow: none;
+
+    .panel-heading {
+        border-bottom: 1px solid $umd_offwhite;
+        padding: 20px 15px;
+        border-radius: 0;
+
+        h4 {
+            font-family: $font-crimson;
+            font-size: 26px;
+            line-height: 26px;
+            font-weight: normal;
+        }
+    }
+
+    .panel-body {
+        border-top: 0 !important;
+        background-color: $umd_offwhite;
+        padding: 20px 30px;
+    }
+}
+
+.sidebar {
+    padding-left: 25px;
+    padding-top: 10px;
+    border-left: 3px solid $umd_offwhite;
+
+    @include breakpoint(screen-md) {
+        padding-left: 15px;
+        padding-top: 0;
+        border-left: none;
+    }
+    @include breakpoint(screen-sm) {
+        padding-left: 15px;
+        padding-top: 0;
+        border-left: none;
+    }
+    @include breakpoint(screen-xs) {
+        padding-left: 15px;
+        padding-top: 0;
+        border-left: none;
+    }
+
+    p {
+        margin-bottom: 16px;
+    }
 }
 
 
