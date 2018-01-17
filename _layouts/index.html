@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    {% include head.html %}
+
+<body>
+    {% include header.html %}
+
+
+    <main role="main">
+        <section class="hero-wrapper clearfix small" role="banner">
+            <div id="hero" class="header-banner" style="background-image:url('{{ site.baseurl }}/img/bg/turner.png');" role="img" aria-label="site hero banner"></div>
+        </section>
+
+        <section class="white-bg">
+            <div class="container spaces no-pad-top">
+                <div class="row">
+                    
+                    <div class="col-md-9 spaces right">
+                        <div class="subpage">
+                            <ol class="breadcrumb ">
+                                <li><a href="{{ site.baseurl }}/">Home</a></li>
+                                <li class="active">Breadcrumbs</li>
+                            </ol>
+
+                            <h1 class="crimson red">Basic Page</h1>
+                            <p class="uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        
+                        <hr class="hr-lrg"><br>
+
+                        <p>The Campus Communicators is the group of UMD employees whose job responsibilities include communications. They might be communications professionals, sure, but others are marketers, graphic designers, videographers, website coordinators or staffers who juggle it all.</p>
+                        <p>The Office of Strategic Communications hosts quarterly meetings of this group in the Grand Ballroom of the Stamp Student Union to discuss recent initiatives, news and upcoming messaging priorities. The communicators also share information and bounce ideas off each other on a university listserv.</p>
+                        <p>Would you like to join? Subscribe to our listserv:</p>
+                        <p>Email <a href="mailto:csosa@umd.edu?subject=Campus Communicators">csosa@umd.edu</a></p>
+                    </div>
+                    <div class="col-md-3 subpage spaces left">
+                        <p>Content</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>

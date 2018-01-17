@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    {% include head.html %}
+
+<body>
+    {% include header.html %}
+
+
+    <main role="main">
+        <section class="hero-wrapper clearfix small" role="banner">
+            <div id="hero" class="header-banner" style="background-image:url('{{ site.baseurl }}{{ page.banner }}');" role="img" aria-label="site hero banner"></div>
+        </section>
+
+        {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>
