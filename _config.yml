@@ -16,7 +16,7 @@
 title: Basic - Kitchen Sink
 email: tdbrooks@umd.edu
 description: 'GitHub repo for testing, styles, and bootstrap kitchen sink.'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/basic" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
