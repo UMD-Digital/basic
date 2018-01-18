@@ -113,9 +113,14 @@ p.lrg {
 
 
 .filters {
-    div:last-child {
+    // div:last-child {
+    //     a {
+    //         border-right: 0;
+    //     }
+    // }
+    div:first-child {
         a {
-            border-right: 0;
+            border-left: 1px solid $umd_offwhite !important;
         }
     }
     a {
@@ -144,7 +149,7 @@ p.lrg {
         }
     }
 
-    // Hack for resources page
+    // Hack for tabs pages
 
     li {
         &.active {
@@ -153,14 +158,16 @@ p.lrg {
             border: 0;
         }
 
-        div:last-child {
-            a {
-                border-right: 0;
-            }
-        }
+        // div:last-child {
+        //     a {
+        //         border-right: 0;
+        //     }
+        // }
 
         a {
             border-right: 1px solid $umd_offwhite;
+            border-right: 1px solid $umd_offwhite !important;
+            border-top: 1px solid $umd_offwhite !important;
             line-height: 16px !important;
             width: 100% !important;
             display: block;
@@ -185,10 +192,11 @@ p.lrg {
     }
 }
 
-// Bootstrap tabs overrides - Resources Page
-    .nav-tabs {
-        border-bottom: 0;
-    }
+// Bootstrap tabs overrides
+.nav-tabs {
+    border-bottom: 0;
+}
+
 .filters {
     &.nav {
         > li {
@@ -224,11 +232,11 @@ p.lrg {
                 }
             } 
 
-            &:last-child {
-                a {
-                    border-right: 0 !important;
-                }
-            }
+            // &:last-child {
+            //     a {
+            //         border-right: 0 !important;
+            //     }
+            // }
         }
     }
 }
@@ -368,6 +376,12 @@ table {
     }
 }
 
+
+.tab-pane {
+    padding: 30px;
+    border: 1px solid $umd_offwhite;
+    margin-bottom: 25px !important;
+}
 
 
 

@@ -13024,11 +13024,11 @@ p.lrg {
   color: #434A4F;
 }
 
-/* line 117, ../sass/_project.scss */
-.filters div:last-child a {
-  border-right: 0;
+/* line 122, ../sass/_project.scss */
+.filters div:first-child a {
+  border-left: 1px solid #f1f1f1 !important;
 }
-/* line 121, ../sass/_project.scss */
+/* line 126, ../sass/_project.scss */
 .filters a {
   border-right: 1px solid #f1f1f1;
   line-height: 16px !important;
@@ -13043,35 +13043,33 @@ p.lrg {
   color: #434A4F;
 }
 @media only screen and (max-width: 480px) {
-  /* line 121, ../sass/_project.scss */
+  /* line 126, ../sass/_project.scss */
   .filters a {
     border: 1px solid #f1f1f1 !important;
     box-sizing: border-box;
   }
 }
-/* line 136, ../sass/_project.scss */
+/* line 141, ../sass/_project.scss */
 .filters a.active {
   color: #e21833;
   background-color: #f1f1f1;
 }
-/* line 141, ../sass/_project.scss */
+/* line 146, ../sass/_project.scss */
 .filters a:hover, .filters a:focus {
   cursor: pointer;
   background-color: #f1f1f1;
 }
-/* line 150, ../sass/_project.scss */
+/* line 155, ../sass/_project.scss */
 .filters li.active {
   color: #e21833;
   background-color: #f1f1f1 !important;
   border: 0;
 }
-/* line 157, ../sass/_project.scss */
-.filters li div:last-child a {
-  border-right: 0;
-}
-/* line 162, ../sass/_project.scss */
+/* line 167, ../sass/_project.scss */
 .filters li a {
   border-right: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1 !important;
+  border-top: 1px solid #f1f1f1 !important;
   line-height: 16px !important;
   width: 100% !important;
   display: block;
@@ -13083,29 +13081,29 @@ p.lrg {
   font-weight: bold;
   color: #434A4F;
 }
-/* line 175, ../sass/_project.scss */
+/* line 182, ../sass/_project.scss */
 .filters li a.active {
   color: #e21833;
   background-color: #f1f1f1;
 }
-/* line 180, ../sass/_project.scss */
+/* line 187, ../sass/_project.scss */
 .filters li a:hover, .filters li a:focus {
   cursor: pointer;
   background-color: #f1f1f1;
 }
 
-/* line 189, ../sass/_project.scss */
+/* line 196, ../sass/_project.scss */
 .nav-tabs {
   border-bottom: 0;
 }
 
-/* line 195, ../sass/_project.scss */
+/* line 203, ../sass/_project.scss */
 .filters.nav > li.active {
   color: #e21833;
   background-color: #f1f1f1 !important;
   border: 0;
 }
-/* line 200, ../sass/_project.scss */
+/* line 208, ../sass/_project.scss */
 .filters.nav > li > a {
   border-radius: 0;
   border-left: 0;
@@ -13114,13 +13112,13 @@ p.lrg {
   border: 0;
   border-right: 1px solid #f1f1f1 !important;
 }
-/* line 208, ../sass/_project.scss */
+/* line 216, ../sass/_project.scss */
 .filters.nav > li > a.active {
   color: #e21833;
   background-color: #f1f1f1 !important;
   border: 0;
 }
-/* line 214, ../sass/_project.scss */
+/* line 222, ../sass/_project.scss */
 .filters.nav > li > a:hover, .filters.nav > li > a:focus {
   cursor: pointer;
   background-color: #f1f1f1;
@@ -13131,12 +13129,8 @@ p.lrg {
   border: 0;
   border-right: 1px solid #f1f1f1 !important;
 }
-/* line 228, ../sass/_project.scss */
-.filters.nav > li:last-child a {
-  border-right: 0 !important;
-}
 
-/* line 237, ../sass/_project.scss */
+/* line 245, ../sass/_project.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #e21833;
   background-color: #f1f1f1;
@@ -13145,23 +13139,23 @@ p.lrg {
   cursor: default;
 }
 
-/* line 245, ../sass/_project.scss */
+/* line 253, ../sass/_project.scss */
 .description {
   font-size: 21px;
   line-height: 34px;
 }
 
-/* line 251, ../sass/_project.scss */
+/* line 259, ../sass/_project.scss */
 .nav li {
   font-size: 13px;
   line-height: 39px;
 }
-/* line 255, ../sass/_project.scss */
+/* line 263, ../sass/_project.scss */
 .nav li a {
   padding: 0 15px;
   color: #636363;
 }
-/* line 260, ../sass/_project.scss */
+/* line 268, ../sass/_project.scss */
 .nav li.title {
   font-weight: bold;
   text-transform: uppercase;
@@ -13169,20 +13163,20 @@ p.lrg {
   padding: 0 15px;
 }
 
-/* line 271, ../sass/_project.scss */
+/* line 279, ../sass/_project.scss */
 hr.medium {
   border-top-width: 3px;
 }
-/* line 274, ../sass/_project.scss */
+/* line 282, ../sass/_project.scss */
 hr.large {
   border-top-width: 5px;
 }
-/* line 277, ../sass/_project.scss */
+/* line 285, ../sass/_project.scss */
 hr.xlarge {
   border-top-width: 8px;
 }
 
-/* line 285, ../sass/_project.scss */
+/* line 293, ../sass/_project.scss */
 table thead tr th {
   background-color: #f1f1f1;
   border-bottom: 0 !important;
@@ -13191,12 +13185,12 @@ table thead tr th {
   text-transform: uppercase;
   font-size: 13px;
 }
-/* line 296, ../sass/_project.scss */
+/* line 304, ../sass/_project.scss */
 table tr td {
   border-color: #f1f1f1 !important;
 }
 
-/* line 302, ../sass/_project.scss */
+/* line 310, ../sass/_project.scss */
 .panel-title > a:before {
   float: left !important;
   font-family: FontAwesome;
@@ -13205,57 +13199,57 @@ table tr td {
   font-size: 13px;
 }
 
-/* line 309, ../sass/_project.scss */
+/* line 317, ../sass/_project.scss */
 .panel-title > a.collapsed:before {
   float: left !important;
   content: "\f067";
 }
 
-/* line 313, ../sass/_project.scss */
+/* line 321, ../sass/_project.scss */
 .panel-title > a:hover,
 .panel-title > a:active,
 .panel-title > a:focus {
   text-decoration: none;
 }
 
-/* line 318, ../sass/_project.scss */
+/* line 326, ../sass/_project.scss */
 .panel-group {
   margin-bottom: 50px;
 }
 
-/* line 321, ../sass/_project.scss */
+/* line 329, ../sass/_project.scss */
 .panel {
   border: 0;
   box-shadow: none;
 }
-/* line 325, ../sass/_project.scss */
+/* line 333, ../sass/_project.scss */
 .panel .panel-heading {
   border-bottom: 1px solid #f1f1f1;
   padding: 20px 15px;
   border-radius: 0;
 }
-/* line 330, ../sass/_project.scss */
+/* line 338, ../sass/_project.scss */
 .panel .panel-heading h4 {
   font-family: "Crimson Text", serif;
   font-size: 26px;
   line-height: 26px;
   font-weight: normal;
 }
-/* line 338, ../sass/_project.scss */
+/* line 346, ../sass/_project.scss */
 .panel .panel-body {
   border-top: 0 !important;
   background-color: #f1f1f1;
   padding: 20px 30px;
 }
 
-/* line 345, ../sass/_project.scss */
+/* line 353, ../sass/_project.scss */
 .sidebar {
   padding-left: 25px;
   padding-top: 10px;
   border-left: 3px solid #f1f1f1;
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 345, ../sass/_project.scss */
+  /* line 353, ../sass/_project.scss */
   .sidebar {
     padding-left: 15px;
     padding-top: 0;
@@ -13263,7 +13257,7 @@ table tr td {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 345, ../sass/_project.scss */
+  /* line 353, ../sass/_project.scss */
   .sidebar {
     padding-left: 15px;
     padding-top: 0;
@@ -13271,16 +13265,23 @@ table tr td {
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 345, ../sass/_project.scss */
+  /* line 353, ../sass/_project.scss */
   .sidebar {
     padding-left: 15px;
     padding-top: 0;
     border-left: none;
   }
 }
-/* line 366, ../sass/_project.scss */
+/* line 374, ../sass/_project.scss */
 .sidebar p {
   margin-bottom: 16px;
+}
+
+/* line 380, ../sass/_project.scss */
+.tab-pane {
+  padding: 30px;
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px !important;
 }
 
 /* line 1, ../sass/util/_animations.scss */
