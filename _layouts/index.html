@@ -29,16 +29,37 @@
                 </div>
 
                 <div class="row med-spaces no-pad-b" >
-                    <div class="col-md-8">
-                        <p class="lrg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum nisl, sed mattis mi. Proin eu posuere lorem. Curabitur facilisis venenatis turpis, at imperdiet neque mattis at. Vivamus aliquet tempor tellus vel malesuada. Fusce a mi vel orci commodo posuere. Sed interdum, nibh in mattis accumsan, arcu justo cursus augue, in efficitur velit ante a metus. Quisque ut purus ac nibh lobortis scelerisque sed vitae mi. Duis commodo iaculis sapien quis scelerisque. Donec ullamcorper bibendum blandit. Vivamus nisl ligula, blandit quis neque vel, luctus hendrerit est. Vivamus rutrum elementum molestie. Aenean a aliquam dui, sed ultricies nisl. Maecenas dapibus risus gravida tincidunt condimentum. Nulla molestie eget ante a elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="col-md-3">
+                        <nav class="sidebar" role="navigation">
+                            <ul class="sidebar-nav">
+                                <li class="sidebar-brand"><a class="letter-spacing uppercase red bold" href="#">Undergraduate Catalog</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret right"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">Link</a></li>
+                                        <li><a href="#">Link</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" class="dropdown-toggle submenu" data-toggle="dropdown-nested">Dropdown <span class="caret right"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">Link</a></li>
+                                                <li><a href="#">Link</a></li>
+                                                <li><a href="#">Link</a></li>
+                                                <li><a href="#">Link</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="col-md-3 col-md-offset-1 sidebar">
-                        <p class="letter-spacing uppercase red bold">Sidebar Menu</p>
-                        <p><a class="body-color underline" href="#">Child Title 1</a></p>
-                        <p><a class="body-color underline" href="#">Child Title 2</a></p>
-                        <p><a class="body-color underline" href="#">Child Title 3</a></p>
-                        <p><a class="body-color underline" href="#">Child Title 4</a></p>
-                        <p><a class="body-color underline" href="#">Child Title 5</a></p>
+                    
+                    <div class="col-md-8 col-md-offset-1">
+                        <p class="lrg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum nisl, sed mattis mi. Proin eu posuere lorem. Curabitur facilisis venenatis turpis, at imperdiet neque mattis at. Vivamus aliquet tempor tellus vel malesuada. Fusce a mi vel orci commodo posuere. Sed interdum, nibh in mattis accumsan, arcu justo cursus augue, in efficitur velit ante a metus. Quisque ut purus ac nibh lobortis scelerisque sed vitae mi. Duis commodo iaculis sapien quis scelerisque. Donec ullamcorper bibendum blandit. Vivamus nisl ligula, blandit quis neque vel, luctus hendrerit est. Vivamus rutrum elementum molestie. Aenean a aliquam dui, sed ultricies nisl. Maecenas dapibus risus gravida tincidunt condimentum. Nulla molestie eget ante a elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
 
@@ -316,6 +337,16 @@
     </main>
 
     {% include footer.html %}
+
+    <script>
+        $(document).ready(function(){
+        $('.dropdown-submenu a.submenu').on("click", function(e){
+            $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
 
 </body>
 </html>

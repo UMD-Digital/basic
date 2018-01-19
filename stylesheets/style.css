@@ -13242,42 +13242,87 @@ table tr td {
   padding: 20px 30px;
 }
 
-/* line 353, ../sass/_project.scss */
-.sidebar {
-  padding-left: 25px;
-  padding-top: 10px;
-  border-left: 3px solid #f1f1f1;
+/* line 382, ../sass/_project.scss */
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 353, ../sass/_project.scss */
-  .sidebar {
-    padding-left: 15px;
-    padding-top: 0;
-    border-left: none;
-  }
+/* line 387, ../sass/_project.scss */
+.sidebar ul.dropdown-menu {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin: 0 !important;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  background-color: #f1f1f1;
+  background-clip: border-box !important;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 353, ../sass/_project.scss */
-  .sidebar {
-    padding-left: 15px;
-    padding-top: 0;
-    border-left: none;
-  }
+/* line 401, ../sass/_project.scss */
+.sidebar ul.dropdown-menu li:first-child a {
+  font-size: 13px;
+  padding: 10px 15px 10px 25px;
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  color: #636363;
 }
-@media only screen and (max-width: 480px) {
-  /* line 353, ../sass/_project.scss */
-  .sidebar {
-    padding-left: 15px;
-    padding-top: 0;
-    border-left: none;
-  }
+/* line 410, ../sass/_project.scss */
+.sidebar ul.dropdown-menu li a {
+  padding: 10px 15px 10px 25px;
 }
-/* line 374, ../sass/_project.scss */
-.sidebar p {
-  margin-bottom: 16px;
+/* line 414, ../sass/_project.scss */
+.sidebar ul.dropdown-menu li.dropdown-submenu {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  margin: 0 !important;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  text-align: left;
+  background-color: #f1f1f1;
+  background-clip: border-box !important;
+}
+/* line 428, ../sass/_project.scss */
+.sidebar ul.dropdown-menu li.dropdown-submenu li:first-child a {
+  font-size: 13px;
+  padding: 10px 35px;
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #E0E0E0;
+  color: #636363;
+}
+/* line 438, ../sass/_project.scss */
+.sidebar ul.dropdown-menu li.dropdown-submenu li a {
+  padding: 10px 35px !important;
+  background-color: #E0E0E0;
+}
+/* line 449, ../sass/_project.scss */
+.sidebar ul li:first-child a {
+  font-size: 16px;
+  color: #e21833;
+}
+/* line 454, ../sass/_project.scss */
+.sidebar ul li a {
+  font-size: 13px;
+  padding: 10px 15px;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+  color: #636363;
+}
+/* line 465, ../sass/_project.scss */
+.sidebar .dropdown.open a {
+  border-bottom: 1px solid #e1e1e1;
+}
+/* line 471, ../sass/_project.scss */
+.sidebar .dropdown-toggle .caret {
+  margin-top: 7px;
 }
 
-/* line 380, ../sass/_project.scss */
+/* line 479, ../sass/_project.scss */
 .tab-pane {
   padding: 30px;
   border: 1px solid #f1f1f1;
