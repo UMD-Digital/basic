@@ -10395,7 +10395,7 @@ body {
 
   /* line 120, ../sass/components/_nav.scss */
   .navbar li a {
-    line-height: 36px;
+    line-height: 64px;
     color: #fff !important;
     padding-bottom: 5px;
   }
