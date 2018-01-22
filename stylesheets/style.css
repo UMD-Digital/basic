@@ -10019,50 +10019,17 @@ a.btn-tag.red:hover, a.btn-tag.red:focus {
   margin-bottom: 1em;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 625, ../sass/_base.scss */
-  .sidebar {
-    margin-top: 1.5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 625, ../sass/_base.scss */
-  .sidebar {
-    margin-top: 1.5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 625, ../sass/_base.scss */
-  .sidebar {
-    margin-top: 1.5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media only screen and (max-width: 480px) {
-  /* line 625, ../sass/_base.scss */
-  .sidebar {
-    margin-top: 1.5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 /* -------------------------------- 
 
 Image left content right card design
 
 -------------------------------- */
-/* line 637, ../sass/_base.scss */
+/* line 629, ../sass/_base.scss */
 .feature-card-container {
   background-color: #ffffff;
   margin-bottom: 1em;
 }
-/* line 641, ../sass/_base.scss */
+/* line 633, ../sass/_base.scss */
 .feature-card-container .feature-card {
   position: relative;
   height: 200px;
@@ -10071,18 +10038,18 @@ Image left content right card design
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #E2E2E2;
 }
-/* line 649, ../sass/_base.scss */
+/* line 641, ../sass/_base.scss */
 .feature-card-container .feature-card.height-100 {
   height: 100% !important;
 }
-/* line 653, ../sass/_base.scss */
+/* line 645, ../sass/_base.scss */
 .feature-card-container .feature-card .image-left .feature-img-container {
   right: 50%;
   left: 0;
   margin-right: -95px;
   margin-left: 0;
 }
-/* line 660, ../sass/_base.scss */
+/* line 652, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container {
   right: 50%;
   left: 0;
@@ -10100,18 +10067,18 @@ Image left content right card design
   width: 40%;
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 660, ../sass/_base.scss */
+  /* line 652, ../sass/_base.scss */
   .feature-card-container .feature-card .feature-img-container {
     display: none;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 660, ../sass/_base.scss */
+  /* line 652, ../sass/_base.scss */
   .feature-card-container .feature-card .feature-img-container {
     display: none;
   }
 }
-/* line 681, ../sass/_base.scss */
+/* line 673, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container .feature-img {
   width: 100%;
   height: 100%;
@@ -10119,13 +10086,13 @@ Image left content right card design
   transition: 0.3s all;
   background: no-repeat 50% 50%;
 }
-/* line 688, ../sass/_base.scss */
+/* line 680, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container .feature-img:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 694, ../sass/_base.scss */
+/* line 686, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container .feature-img-overlay {
   position: absolute;
   z-index: 2;
@@ -10133,38 +10100,38 @@ Image left content right card design
   transform: none !important;
   color: #fff;
 }
-/* line 701, ../sass/_base.scss */
+/* line 693, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container .top {
   left: 50px;
   right: 50px;
   top: 50px;
 }
-/* line 706, ../sass/_base.scss */
+/* line 698, ../sass/_base.scss */
 .feature-card-container .feature-card .feature-img-container .bottom {
   left: 50px;
   right: 50px;
   bottom: 50px;
 }
-/* line 714, ../sass/_base.scss */
+/* line 706, ../sass/_base.scss */
 .feature-card-container .image-left .feature-description {
   float: right;
   padding-right: 2.5em;
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 714, ../sass/_base.scss */
+  /* line 706, ../sass/_base.scss */
   .feature-card-container .image-left .feature-description {
     padding-right: 1.5em;
     padding-left: 1.5em;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 714, ../sass/_base.scss */
+  /* line 706, ../sass/_base.scss */
   .feature-card-container .image-left .feature-description {
     padding-right: 1.5em;
     padding-left: 1.5em;
   }
 }
-/* line 724, ../sass/_base.scss */
+/* line 716, ../sass/_base.scss */
 .feature-card-container .feature-description {
   display: inline-block;
   display: table;
@@ -10173,57 +10140,57 @@ Image left content right card design
   width: 55%;
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 724, ../sass/_base.scss */
+  /* line 716, ../sass/_base.scss */
   .feature-card-container .feature-description {
     width: 100%;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 724, ../sass/_base.scss */
+  /* line 716, ../sass/_base.scss */
   .feature-card-container .feature-description {
     width: 100%;
   }
 }
-/* line 736, ../sass/_base.scss */
+/* line 728, ../sass/_base.scss */
 .feature-card-container .feature-description .feature-content {
   display: inline-block;
   display: table-cell;
   vertical-align: middle;
 }
-/* line 741, ../sass/_base.scss */
+/* line 733, ../sass/_base.scss */
 .feature-card-container .feature-description .feature-content hr {
   max-width: 30px;
   margin: 1rem 0;
   border-top: 2px solid #d8d8d8;
 }
-/* line 748, ../sass/_base.scss */
+/* line 740, ../sass/_base.scss */
 .feature-card-container .feature-description .feature-content h2 {
   font-size: 1.5rem;
   line-height: 1.4rem;
   margin: 0;
   font-weight: bold;
 }
-/* line 755, ../sass/_base.scss */
+/* line 747, ../sass/_base.scss */
 .feature-card-container .feature-description .feature-content .content-info {
   color: #666666;
 }
 
-/* line 764, ../sass/_base.scss */
+/* line 756, ../sass/_base.scss */
 .nav.no-style a {
   padding: 0.7rem 3rem;
 }
-/* line 768, ../sass/_base.scss */
+/* line 760, ../sass/_base.scss */
 .nav.no-style a.btn-blk:hover, .nav.no-style a.btn-blk:focus {
   background-color: #e21833;
   color: #umd_dkred;
 }
-/* line 774, ../sass/_base.scss */
+/* line 766, ../sass/_base.scss */
 .nav.no-style a:hover, .nav.no-style a:focus {
   background-color: transparent;
   color: #umd_dkred;
 }
 
-/* line 782, ../sass/_base.scss */
+/* line 774, ../sass/_base.scss */
 .slide-link {
   color: #e21833;
   float: left;
@@ -10232,7 +10199,7 @@ Image left content right card design
   line-height: 2em;
   position: relative;
 }
-/* line 790, ../sass/_base.scss */
+/* line 782, ../sass/_base.scss */
 .slide-link::before {
   content: "";
   position: absolute;
@@ -10249,11 +10216,11 @@ Image left content right card design
   -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-/* line 807, ../sass/_base.scss */
+/* line 799, ../sass/_base.scss */
 .slide-link:hover {
   color: #e21833;
 }
-/* line 810, ../sass/_base.scss */
+/* line 802, ../sass/_base.scss */
 .slide-link:hover::before {
   visibility: visible;
   -webkit-transform: scaleX(1);
@@ -10267,9 +10234,9 @@ body {
 }
 
 /* line 4, ../sass/components/_nav.scss */
-.nav-container {
-  padding-top: 7px;
-  padding-bottom: 7px;
+a.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 /* line 9, ../sass/components/_nav.scss */
@@ -10330,7 +10297,7 @@ body {
 /* line 60, ../sass/components/_nav.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 15px;
+  padding: 0px 15px;
   font-size: initial !important;
   line-height: initial !important;
   height: initial !important;
@@ -10395,7 +10362,7 @@ body {
 
   /* line 120, ../sass/components/_nav.scss */
   .navbar li a {
-    line-height: 64px;
+    line-height: 75px;
     color: #fff !important;
     padding-bottom: 5px;
   }
@@ -10443,7 +10410,7 @@ body {
 
   /* line 169, ../sass/components/_nav.scss */
   .navbar li a {
-    line-height: 36px;
+    line-height: 75px;
     color: #fff !important;
     padding-bottom: 5px;
   }
@@ -10459,29 +10426,13 @@ body {
     padding-top: 56px !important;
   }
 
-  /* line 190, ../sass/components/_nav.scss */
-  .navbar-brand {
-    width: 100%;
-  }
-  /* line 193, ../sass/components/_nav.scss */
-  .navbar-brand h1 {
-    text-align: center;
-  }
-
-  /* line 197, ../sass/components/_nav.scss */
-  .navbar-header {
-    position: relative;
-    z-index: 1000;
-    width: 100%;
-  }
-
-  /* line 202, ../sass/components/_nav.scss */
+  /* line 189, ../sass/components/_nav.scss */
   .navbar-default {
     background: rgba(0, 0, 0, 0.75) !important;
     border: 0;
   }
 
-  /* line 207, ../sass/components/_nav.scss */
+  /* line 194, ../sass/components/_nav.scss */
   .navbar-right {
     float: right !important;
     margin-right: -15px;
@@ -10489,7 +10440,7 @@ body {
     right: 15px;
   }
 
-  /* line 214, ../sass/components/_nav.scss */
+  /* line 201, ../sass/components/_nav.scss */
   .dropdown-menu {
     left: 50% !important;
     right: auto;
@@ -10500,126 +10451,126 @@ body {
     margin-top: 8px !important;
     border-top: 3px solid #e21833;
   }
-  /* line 225, ../sass/components/_nav.scss */
+  /* line 212, ../sass/components/_nav.scss */
   .dropdown-menu li {
     width: 100%;
   }
 
-  /* line 232, ../sass/components/_nav.scss */
+  /* line 219, ../sass/components/_nav.scss */
   .navbar li a {
-    line-height: 36px;
+    line-height: 75px !important;
     color: #fff !important;
     padding-bottom: 5px;
   }
 
-  /* line 241, ../sass/components/_nav.scss */
+  /* line 228, ../sass/components/_nav.scss */
   .dropdown-menu li a {
     color: #434A4F !important;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 248, ../sass/components/_nav.scss */
+  /* line 235, ../sass/components/_nav.scss */
   .navbar-toggle {
-    margin-top: 2px !important;
+    margin-top: 20px !important;
     margin-bottom: 4px !important;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 248, ../sass/components/_nav.scss */
+  /* line 235, ../sass/components/_nav.scss */
   .navbar-toggle {
-    margin-top: 2px !important;
+    margin-top: 20px !important;
     margin-bottom: 4px !important;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  /* line 260, ../sass/components/_nav.scss */
+  /* line 247, ../sass/components/_nav.scss */
   .header {
     padding-top: 56px !important;
   }
 
-  /* line 264, ../sass/components/_nav.scss */
+  /* line 251, ../sass/components/_nav.scss */
   .navbar-brand h1 {
     font-size: 26px;
     line-height: 36px;
   }
 
-  /* line 269, ../sass/components/_nav.scss */
+  /* line 256, ../sass/components/_nav.scss */
   .navbar-default {
     background: rgba(0, 0, 0, 0.75) !important;
     border: 0;
   }
-  /* line 273, ../sass/components/_nav.scss */
+  /* line 260, ../sass/components/_nav.scss */
   .navbar-default .navbar-collapse {
     border-color: #000;
     padding: 0;
     margin-top: 5px;
   }
-  /* line 279, ../sass/components/_nav.scss */
+  /* line 266, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle {
     border-color: #fff;
   }
-  /* line 282, ../sass/components/_nav.scss */
+  /* line 269, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #f1f1f1 !important;
   }
-  /* line 286, ../sass/components/_nav.scss */
+  /* line 273, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
 
-  /* line 294, ../sass/components/_nav.scss */
+  /* line 281, ../sass/components/_nav.scss */
   .navbar li a {
     color: #fff !important;
   }
 
-  /* line 299, ../sass/components/_nav.scss */
+  /* line 286, ../sass/components/_nav.scss */
   .dropdown-menu {
     background-color: #f1f1f1 !important;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 304, ../sass/components/_nav.scss */
+  /* line 291, ../sass/components/_nav.scss */
   .header {
     padding-top: 56px !important;
   }
 
-  /* line 308, ../sass/components/_nav.scss */
+  /* line 295, ../sass/components/_nav.scss */
   .navbar-brand h1 {
-    font-size: 18px;
+    font-size: 21px;
     line-height: 36px;
   }
 
-  /* line 313, ../sass/components/_nav.scss */
+  /* line 300, ../sass/components/_nav.scss */
   .navbar-default {
     background: rgba(0, 0, 0, 0.75) !important;
     border: 0;
   }
-  /* line 317, ../sass/components/_nav.scss */
+  /* line 304, ../sass/components/_nav.scss */
   .navbar-default .navbar-collapse {
     border-color: #000;
     padding: 0;
     margin-top: 5px;
   }
-  /* line 323, ../sass/components/_nav.scss */
+  /* line 310, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle {
     border-color: #fff;
   }
-  /* line 326, ../sass/components/_nav.scss */
+  /* line 313, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #f1f1f1 !important;
   }
-  /* line 330, ../sass/components/_nav.scss */
+  /* line 317, ../sass/components/_nav.scss */
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
   }
 
-  /* line 338, ../sass/components/_nav.scss */
+  /* line 325, ../sass/components/_nav.scss */
   .navbar li a {
     color: #fff !important;
   }
 
-  /* line 343, ../sass/components/_nav.scss */
+  /* line 330, ../sass/components/_nav.scss */
   .dropdown-menu {
     background-color: #f1f1f1 !important;
   }
@@ -13242,13 +13193,35 @@ table tr td {
   padding: 20px 30px;
 }
 
-/* line 382, ../sass/_project.scss */
+/* line 354, ../sass/_project.scss */
+.sidebar {
+  margin-bottom: 2em;
+}
+/* line 357, ../sass/_project.scss */
 .sidebar ul {
   list-style-type: none;
   padding-left: 0;
   margin-bottom: 0;
 }
-/* line 387, ../sass/_project.scss */
+/* line 362, ../sass/_project.scss */
+.sidebar ul li {
+  position: relative;
+}
+/* line 366, ../sass/_project.scss */
+.sidebar ul li:first-child a {
+  font-size: 16px;
+  color: #e21833;
+}
+/* line 371, ../sass/_project.scss */
+.sidebar ul li a {
+  font-size: 13px;
+  padding: 10px 15px;
+  display: block;
+  border-bottom: 1px solid #e1e1e1;
+  color: #636363;
+  clear: both;
+}
+/* line 381, ../sass/_project.scss */
 .sidebar ul.dropdown-menu {
   border-radius: 0;
   border: none;
@@ -13261,7 +13234,7 @@ table tr td {
   background-color: #f1f1f1;
   background-clip: border-box !important;
 }
-/* line 401, ../sass/_project.scss */
+/* line 395, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li:first-child a {
   font-size: 13px;
   padding: 10px 15px 10px 25px;
@@ -13269,11 +13242,12 @@ table tr td {
   border-bottom: 1px solid #e1e1e1;
   color: #636363;
 }
-/* line 410, ../sass/_project.scss */
+/* line 404, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li a {
   padding: 10px 15px 10px 25px;
+  clear: both;
 }
-/* line 414, ../sass/_project.scss */
+/* line 409, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li.dropdown-submenu {
   border-radius: 0;
   border: none;
@@ -13286,7 +13260,7 @@ table tr td {
   background-color: #f1f1f1;
   background-clip: border-box !important;
 }
-/* line 428, ../sass/_project.scss */
+/* line 423, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li.dropdown-submenu li:first-child a {
   font-size: 13px;
   padding: 10px 35px;
@@ -13295,39 +13269,59 @@ table tr td {
   background-color: #E9E9E9;
   color: #636363;
 }
-/* line 438, ../sass/_project.scss */
+/* line 433, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li.dropdown-submenu li a {
   padding: 10px 35px !important;
   background-color: #E9E9E9;
   border-bottom: 1px solid #D9D9D9;
 }
-/* line 450, ../sass/_project.scss */
-.sidebar ul li:first-child a {
-  font-size: 16px;
-  color: #e21833;
-}
-/* line 455, ../sass/_project.scss */
-.sidebar ul li a {
-  font-size: 13px;
-  padding: 10px 15px;
-  display: block;
-  border-bottom: 1px solid #f1f1f1;
-  color: #636363;
-}
-/* line 466, ../sass/_project.scss */
+/* line 447, ../sass/_project.scss */
 .sidebar .dropdown.open a {
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 472, ../sass/_project.scss */
+/* line 453, ../sass/_project.scss */
 .sidebar .dropdown-toggle .caret {
   margin-top: 7px;
 }
 
-/* line 480, ../sass/_project.scss */
+/* line 461, ../sass/_project.scss */
 .tab-pane {
   padding: 30px;
   border: 1px solid #f1f1f1;
   margin-bottom: 25px !important;
+}
+
+/* line 469, ../sass/_project.scss */
+.input-group .btn {
+  width: auto !important;
+  background-color: #e21833;
+  color: #fff;
+  border-radius: 0;
+  border-width: 1px;
+  margin-left: 0 !important;
+}
+/* line 479, ../sass/_project.scss */
+.input-group .btn:hover, .input-group .btn:focus {
+  background-color: #900900;
+  border-color: #900900;
+}
+/* line 485, ../sass/_project.scss */
+.input-group .form-control {
+  padding: 16px 24px;
+  height: auto;
+  border-radius: 0;
+  border-color: #e1e1e1;
+  border-right: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 496, ../sass/_project.scss */
+.input-group .form-control:focus {
+  border-color: #e1e1e1;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-right: none !important;
+  outline: 0;
 }
 
 /* line 1, ../sass/util/_animations.scss */

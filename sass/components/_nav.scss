@@ -1,9 +1,9 @@
 body {
     padding-top: 44px; 
 }
-.nav-container {
-    padding-top: 7px;
-    padding-bottom: 7px;
+a.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .navbar-right {
     .dropdown-menu {
@@ -59,7 +59,7 @@ body {
 
 .navbar-brand {
     float: left;
-    padding: 15px 15px;
+    padding: 0px 15px;
     font-size: initial !important; 
     line-height: initial !important; 
     height: initial !important;
@@ -118,7 +118,7 @@ body {
     .navbar {
         li {
             a {
-                line-height: 64px;
+                line-height: 75px;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -167,7 +167,7 @@ body {
     .navbar {
         li {
             a {
-                line-height: 36px;
+                line-height: 75px;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -185,19 +185,6 @@ body {
 @include breakpoint(screen-md) {
     .header {
         padding-top: 56px !important;
-    }
-    // Header center fix
-    .navbar-brand {
-        width: 100%;
-        
-        h1 {
-            text-align: center;
-        }
-    }
-    .navbar-header {
-        position: relative;
-        z-index: 1000;
-        width: 100%;
     }
     .navbar-default {
         background: rgba(0, 0, 0, 0.75) !important;
@@ -230,7 +217,7 @@ body {
     .navbar {
         li {
             a {
-                line-height: 36px;
+                line-height: 75px !important;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -247,11 +234,11 @@ body {
 
 .navbar-toggle {
     @include breakpoint(screen-sm) {
-        margin-top: 2px !important;
+        margin-top: 20px !important;
         margin-bottom: 4px !important;
     }
     @include breakpoint(screen-xs) {
-        margin-top: 2px !important;
+        margin-top: 20px !important;
         margin-bottom: 4px !important;
     }
 }
@@ -306,7 +293,7 @@ body {
     }
     .navbar-brand {
         h1 {
-            font-size: 18px;
+            font-size: 21px;
             line-height: 36px;
         }
     }

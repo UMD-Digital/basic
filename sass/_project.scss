@@ -350,39 +350,33 @@ table {
     }
 }
 
-// .sidebar {
-//     padding-left: 25px;
-//     padding-top: 10px;
-//     border-right: 3px solid $umd_offwhite;
-
-//     @include breakpoint(screen-md) {
-//         padding-left: 15px;
-//         padding-top: 0;
-//         border-left: none;
-//     }
-//     @include breakpoint(screen-sm) {
-//         padding-left: 15px;
-//         padding-top: 0;
-//         border-left: none;
-//     }
-//     @include breakpoint(screen-xs) {
-//         padding-left: 15px;
-//         padding-top: 0;
-//         border-left: none;
-//     }
-
-//     p {
-//         margin-bottom: 16px;
-//     }
-// }
-
-
-// Custom Sidebar - no bootstrap
+// Custom Sidebar
 .sidebar {
+    margin-bottom: 2em;
+
     ul {
         list-style-type: none;
         padding-left: 0;
         margin-bottom: 0;
+
+        li {
+            position: relative;
+
+            &:first-child {
+                a {
+                    font-size: 16px;
+                    color: $umd_red;
+                }
+            }
+            a {
+                font-size: 13px;
+                padding: 10px 15px;
+                display: block;
+                border-bottom: 1px solid #e1e1e1;
+                color: $umd_gray;
+                clear: both;
+            }
+        }
 
         &.dropdown-menu {
             border-radius: 0;
@@ -409,6 +403,7 @@ table {
 
                 a {
                     padding: 10px 15px 10px 25px;
+                    clear: both;
                 }
 
                 &.dropdown-submenu {
@@ -445,21 +440,7 @@ table {
             }
         }
 
-        li {
-            &:first-child {
-                a {
-                    font-size: 16px;
-                    color: $umd_red;
-                }
-            }
-            a {
-                font-size: 13px;
-                padding: 10px 15px;
-                display: block;
-                border-bottom: 1px solid $umd_offwhite;
-                color: $umd_gray;
-            }
-        }
+
     }
 
     .dropdown {
@@ -484,7 +465,43 @@ table {
 }
 
 
+.input-group {
+    .btn {
+        width: auto !important;
 
+        background-color: $umd_red;
+        color: #fff;
+        border-radius: 0;
+        border-width: 1px;
+        margin-left: 0 !important;
+
+
+        &:hover, &:focus {
+            background-color: $umd_dkred;
+            border-color: $umd_dkred;
+        }
+    }
+
+    .form-control {
+        padding: 16px 24px;
+        height: auto;
+        border-radius: 0;
+        border-color: #e1e1e1;
+        border-right: none !important;
+
+
+        -webkit-box-shadow: none;
+        box-shadow: none;
+
+        &:focus {
+            border-color: #e1e1e1;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-right: none !important;
+            outline: 0;
+        }
+    }
+}
 
 
 

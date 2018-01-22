@@ -621,14 +621,6 @@ a.btn-tag {
     margin-bottom: 1em;
 }
 
-// Sidebar Styles
-.sidebar {
-    @include breakpoint(screen-lg) { margin-top: 1.5rem; padding-left: 15px; padding-right: 15px;}
-    @include breakpoint(screen-md) { margin-top: 1.5rem; padding-left: 15px; padding-right: 15px;}
-    @include breakpoint(screen-sm) { margin-top: 1.5rem; padding-left: 15px; padding-right: 15px;}
-    @include breakpoint(screen-xs) { margin-top: 1.5rem; padding-left: 15px; padding-right: 15px;}
-}
-
 /* -------------------------------- 
 
 Image left content right card design
