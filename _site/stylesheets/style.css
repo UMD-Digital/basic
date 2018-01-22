@@ -13291,21 +13291,22 @@ table tr td {
   font-size: 13px;
   padding: 10px 35px;
   display: block;
-  border-bottom: 1px solid #e1e1e1;
-  background-color: #E0E0E0;
+  border-bottom: 1px solid #D9D9D9;
+  background-color: #E9E9E9;
   color: #636363;
 }
 /* line 438, ../sass/_project.scss */
 .sidebar ul.dropdown-menu li.dropdown-submenu li a {
   padding: 10px 35px !important;
-  background-color: #E0E0E0;
+  background-color: #E9E9E9;
+  border-bottom: 1px solid #D9D9D9;
 }
-/* line 449, ../sass/_project.scss */
+/* line 450, ../sass/_project.scss */
 .sidebar ul li:first-child a {
   font-size: 16px;
   color: #e21833;
 }
-/* line 454, ../sass/_project.scss */
+/* line 455, ../sass/_project.scss */
 .sidebar ul li a {
   font-size: 13px;
   padding: 10px 15px;
@@ -13313,16 +13314,16 @@ table tr td {
   border-bottom: 1px solid #f1f1f1;
   color: #636363;
 }
-/* line 465, ../sass/_project.scss */
+/* line 466, ../sass/_project.scss */
 .sidebar .dropdown.open a {
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 471, ../sass/_project.scss */
+/* line 472, ../sass/_project.scss */
 .sidebar .dropdown-toggle .caret {
   margin-top: 7px;
 }
 
-/* line 479, ../sass/_project.scss */
+/* line 480, ../sass/_project.scss */
 .tab-pane {
   padding: 30px;
   border: 1px solid #f1f1f1;

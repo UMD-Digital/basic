@@ -429,15 +429,16 @@ table {
                                 font-size: 13px;
                                 padding: 10px 35px;
                                 display: block;
-                                border-bottom: 1px solid #e1e1e1;
-                                background-color: #E0E0E0;
+                                border-bottom: 1px solid #D9D9D9;
+                                background-color: #E9E9E9;
                                 color: $umd_gray;
                             }
                         }
 
                         a {
                             padding: 10px 35px !important;
-                            background-color: #E0E0E0;
+                            background-color: #E9E9E9;
+                            border-bottom: 1px solid #D9D9D9;
                         }
                     }
                 }
