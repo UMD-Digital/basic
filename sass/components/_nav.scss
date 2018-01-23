@@ -1,10 +1,6 @@
 body {
     padding-top: 44px; 
 }
-a.navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
 .navbar-right {
     .dropdown-menu {
         right: initial !important;
@@ -56,7 +52,10 @@ a.navbar-brand {
     }
 }
 
-
+a.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
 .navbar-brand {
     float: left;
     padding: 0px 15px;
@@ -76,6 +75,7 @@ a.navbar-brand {
         color: #fff ;
         font-size: 34px;
         line-height: 34px;
+        margin-bottom: 5px;
     }
 }
 
@@ -106,19 +106,22 @@ a.navbar-brand {
         -ms-transform: translate(-50%, 0);
         -moz-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
-        margin-top: 8px !important;
 
         border-top: 3px solid $umd_red;
 
         li {
             width: 100%;
+
+            a {
+                line-height: 42px !important;
+            }
         }
     }
 
     .navbar {
         li {
             a {
-                line-height: 75px;
+                line-height: 80px;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -155,7 +158,6 @@ a.navbar-brand {
         -ms-transform: translate(-50%, 0);
         -moz-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
-        margin-top: 8px !important;
 
         border-top: 3px solid $umd_red;
 
@@ -167,7 +169,7 @@ a.navbar-brand {
     .navbar {
         li {
             a {
-                line-height: 75px;
+                line-height: 80px;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -205,7 +207,6 @@ a.navbar-brand {
         -ms-transform: translate(-50%, 0);
         -moz-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
-        margin-top: 8px !important;
 
         border-top: 3px solid $umd_red;
 
@@ -217,7 +218,7 @@ a.navbar-brand {
     .navbar {
         li {
             a {
-                line-height: 75px !important;
+                line-height: 80px !important;
                 color: #fff !important;
                 padding-bottom: 5px;
             }
@@ -280,11 +281,15 @@ a.navbar-brand {
         li {
             a {
                 color: #fff !important;
+                line-height: 34px;
             }
         }
     }
     .dropdown-menu {
-        background-color: $umd_offwhite !important;
+        // background-color: $umd_offwhite !important;
+        a {
+            line-height: 34px;
+        }
     }
 }
 @include breakpoint(screen-xs) {
@@ -324,10 +329,14 @@ a.navbar-brand {
         li {
             a {
                 color: #fff !important;
+                line-height: 34px;
             }
         }
     }
     .dropdown-menu {
-        background-color: $umd_offwhite !important;
+        // background-color: $umd_offwhite !important;
+        a {
+            line-height: 34px;
+        }
     }
 }

@@ -362,6 +362,16 @@ table {
         li {
             position: relative;
 
+            &.sidebar-brand {
+                a {
+                    &:hover, &:focus {
+                        color: $umd_dkred !important;
+                        background-color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+
             &:first-child {
                 a {
                     font-size: 16px;
@@ -375,6 +385,12 @@ table {
                 border-bottom: 1px solid #e1e1e1;
                 color: $umd_gray;
                 clear: both;
+
+                &:hover, &:focus {
+                    color: $umd_red !important;
+                    text-decoration: underline;
+                    background-color: $umd_offwhite;
+                }
             }
         }
 
@@ -404,6 +420,10 @@ table {
                 a {
                     padding: 10px 15px 10px 25px;
                     clear: both;
+
+                    &:hover, &:focus {
+                        background-color: #E9E9E9;
+                    }
                 }
 
                 &.dropdown-submenu {
@@ -434,6 +454,10 @@ table {
                             padding: 10px 35px !important;
                             background-color: #E9E9E9;
                             border-bottom: 1px solid #D9D9D9;
+
+                            &:hover, &:focus {
+                                background-color: #D9D9D9;
+                            }
                         }
                     }
                 }
