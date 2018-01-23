@@ -1,6 +1,8 @@
+// UMD HEADER SPACING
 body {
     padding-top: 44px; 
 }
+
 .navbar-right {
     .dropdown-menu {
         right: initial !important;
@@ -33,8 +35,7 @@ body {
             padding: 0 15px;
         }
     }
-}
-.nav {
+
     .open > a {
         &,
         &:hover,
@@ -72,13 +73,9 @@ body {
     }
 }
 
-a.navbar-brand {
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
 .navbar-brand {
     float: left;
-    padding: 0px 15px;
+    padding: 10px 15px 15px 15px;
     font-size: initial !important; 
     line-height: initial !important; 
     height: initial !important;
@@ -100,7 +97,6 @@ a.navbar-brand {
 }
 .nav-container { 
     .dropdown-menu {
-        // background-color: $umd_offwhite !important;
         a {
             line-height: 34px;
             color: $body_color !important;
@@ -119,13 +115,6 @@ a.navbar-brand {
     }
 }
 @include breakpoint(screen-xl) {
-/*    .header-bg {
-        background: rgba(0,0,0,0.75) !important;
-        -webkit-transition: all .3s ease-out !important;
-        -moz-transition: all .3s ease-out !important;
-        -ms-transition: all .3s ease-out !important;
-        transition: all .3s ease-out !important;
-    }*/
     .navbar-default {
         background: rgba(0, 0, 0, 0.75) !important;
         border: 0;
