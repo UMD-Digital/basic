@@ -14,6 +14,26 @@ body {
     z-index: 2000;
     top: 0;
 }
+
+// What's this?
+.nav {
+    li {
+        font-size: 13px;
+        line-height: 39px;
+        
+        a {
+            padding: 0 15px;
+            color: $umd_gray;
+        }
+
+        &.title {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $umd_red;
+            padding: 0 15px;
+        }
+    }
+}
 .nav {
     .open > a {
         &,
@@ -78,7 +98,26 @@ a.navbar-brand {
         margin-bottom: 5px;
     }
 }
+.nav-container { 
+    .dropdown-menu {
+        // background-color: $umd_offwhite !important;
+        a {
+            line-height: 34px;
+            color: $body_color !important;
 
+            @include breakpoint(screen-md) {
+                line-height: 34px !important;
+                color: $body_color !important;
+            }
+            @include breakpoint(screen-sm) {
+                color: #fff !important;
+            }
+            @include breakpoint(screen-xs) {
+                color: #fff !important;
+            }
+        }
+    }
+}
 @include breakpoint(screen-xl) {
 /*    .header-bg {
         background: rgba(0,0,0,0.75) !important;
@@ -112,9 +151,9 @@ a.navbar-brand {
         li {
             width: 100%;
 
-            a {
-                line-height: 42px !important;
-            }
+            // a {
+            //     line-height: 42px !important;
+            // }
         }
     }
 
@@ -285,10 +324,12 @@ a.navbar-brand {
             }
         }
     }
-    .dropdown-menu {
-        // background-color: $umd_offwhite !important;
-        a {
-            line-height: 34px;
+    .nav-container { 
+        .dropdown-menu {
+            // background-color: $umd_offwhite !important;
+            a {
+                line-height: 34px;
+            }
         }
     }
 }
@@ -331,12 +372,6 @@ a.navbar-brand {
                 color: #fff !important;
                 line-height: 34px;
             }
-        }
-    }
-    .dropdown-menu {
-        // background-color: $umd_offwhite !important;
-        a {
-            line-height: 34px;
         }
     }
 }
