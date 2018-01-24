@@ -145,7 +145,7 @@ h6 {
     background-color: #3A3A3C;
 }
 .white-bg {
-    background-color: $white;
+    background-color: #ffffff;
 }
 .silver-bg {
     background-color: $umd_silver;
@@ -158,7 +158,7 @@ h6 {
 }
 // Colors
 .white {
-    color: $white !important;
+    color: #ffffff !important;
 }
 .gray, .grey {
     color: $umd_gray !important; 
@@ -197,6 +197,9 @@ h6 {
 .med-spaces {
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+    @include breakpoint(screen-sm) { padding-top: 1rem; padding-bottom: 1em; }
+    @include breakpoint(screen-xs) { padding-top: 1rem; padding-bottom: 1em; }
 }
 .no-pad-all {
     padding: 0 !important;
@@ -257,7 +260,7 @@ hr {
         }
     }
     &.x-lrg {
-        border-top: 10px solid $white;
+        border-top: 10px solid #ffffff;
         margin: 40px 0;
     }
 }
@@ -302,8 +305,8 @@ hr {
     text-decoration: none;
     border-radius: 24px;
     padding: 16px 24px;
-    color: $red;
-    border: 2px $red solid;
+    color: $umd_red;
+    border: 2px $umd_red solid;
     background-color: transparent;
 
     @include breakpoint(screen-xl) { width: 210px; }
@@ -314,14 +317,14 @@ hr {
     }
 
     &:hover {
-        background-color: $red;
-        border-color: $red;
+        background-color: $umd_red;
+        border-color: $umd_red;
         color: #fff;
     }
 
     &:focus, &:active, &:active:focus {
-        background-color: $darkred;
-        border-color: $darkred;
+        background-color: $umd_dkred;
+        border-color: $umd_dkred;
         color: #fff;
         outline: 0;
     }
@@ -358,12 +361,12 @@ hr {
     }
     &.solid {
         background-color: $umd_red;
-        color: $white;
+        color: #ffffff;
         border-width: 1px;
         
         &:hover, &:focus {
-            background-color: $darkred;
-            border-color: $darkred;
+            background-color: $umd_dkred;
+            border-color: $umd_dkred;
         }
     }
     &.full {
@@ -376,13 +379,13 @@ hr {
         }
     }
     &.white {
-        color: $white !important;
-        border: 2px solid $white !important;
+        color: #ffffff !important;
+        border: 2px solid #ffffff !important;
 
         &:hover, &:focus {
             background-color: $umd_red !important;
             border: 2px solid $umd_red !important;
-            color: $white !important;
+            color: #ffffff !important;
         }
     }
     &.grey {
@@ -392,7 +395,7 @@ hr {
         &:hover, &:focus {
             background-color: $umd_red !important;
             border: 2px solid $umd_red !important;
-            color: $white !important;
+            color: #ffffff !important;
         }
     }
 }
@@ -477,7 +480,7 @@ hr {
 
 a.text-btn {
     color: $umd_red;
-    background-color: $white;
+    background-color: #ffffff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     padding: 0.7rem 3rem !important;
     margin: 0 0.5rem 1rem 0.5rem;
@@ -494,7 +497,7 @@ a.text-btn {
 
     &:hover, &:focus {
         background-color: $umd_red !important;
-        color: $white;
+        color: #ffffff;
     }
 
     &.hollow {
@@ -505,17 +508,17 @@ a.text-btn {
         &:hover, &:focus {
             background-color: $umd_red;
             border: 1px solid $umd_red;
-            color: $white !important;
+            color: #ffffff !important;
         }
 
         &.white {
-            color: $white !important;
-            border: 1px solid $white !important;
+            color: #ffffff !important;
+            border: 1px solid #ffffff !important;
 
             &:hover, &:focus {
                 background-color: $umd_red !important;
                 border: 1px solid $umd_red !important;
-                color: $white !important;
+                color: #ffffff !important;
             }
         }
     }
@@ -536,7 +539,7 @@ a.btn-tag {
     &:hover, &:focus {
         background-color: $umd_red !important;
         border: 1px solid $umd_red;
-        color: $white !important;
+        color: #ffffff !important;
         text-decoration: none;
     }
     
@@ -545,14 +548,14 @@ a.btn-tag {
         color: $umd_red !important;
 
         &:hover, &:focus {
-            color: $white !important;
+            color: #ffffff !important;
         }
     }
 }
 
 .btn-white {
-    color: $white;
-    border-color: $white;
+    color: #ffffff;
+    border-color: #ffffff;
 }
 .btn-blk {
     color: $umd_black;
@@ -611,7 +614,7 @@ a.btn-tag {
         border-width: 3px;
     }
     &.white-border {
-        border-color: $white;
+        border-color: #ffffff;
         border-width: 3px;
     }
     &.transparent-bg {

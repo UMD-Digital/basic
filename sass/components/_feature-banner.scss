@@ -298,7 +298,7 @@ offic of strategic communications website
         h1 {
             font-size: 5.563rem;
             line-height: 5rem;
-            color: $white;
+            color: #ffffff;
             text-transform: uppercase;
             font-weight: 100;
 
@@ -407,7 +407,7 @@ offic of strategic communications website
 /* Carousel Styles */
 .carousel-indicators {
     .active {
-        background-color: $white;
+        background-color: #ffffff;
     }
 }
 
@@ -479,7 +479,7 @@ offic of strategic communications website
 }
 
 .border-left {
-    border-left: 1px solid $white;
+    border-left: 1px solid #ffffff;
 
     @include breakpoint(screen-lg) { border-left: none; }
     @include breakpoint(screen-md) { border-left: none; }

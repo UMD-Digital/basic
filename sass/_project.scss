@@ -237,12 +237,21 @@ p {
 hr {
     &.medium {
         border-top-width: 3px;
+
+        @include breakpoint(screen-sm) { border-top-width: 2px; }
+        @include breakpoint(screen-xs) { border-top-width: 1px; }
     }
     &.large {
         border-top-width: 5px;
+
+        @include breakpoint(screen-sm) { border-top-width: 3px; }
+        @include breakpoint(screen-xs) { border-top-width: 2px; }
     }
     &.xlarge {
         border-top-width: 8px;
+
+        @include breakpoint(screen-sm) { border-top-width: 4px; }
+        @include breakpoint(screen-xs) { border-top-width: 3px; }
     }
 }
 
