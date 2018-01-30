@@ -52,6 +52,18 @@
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/js/app.js"></script>
 
+    <script src="{{ site.baseurl }}/js/vendor/jquery.matchHeight.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('.dropdown-submenu a.submenu').on("click", function(e){
+            $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
+
     <script src="https://umd-header.umd.edu/build/bundle.js?search=1&search_domain=urhome&events=1&news=1&schools=1&admissions=1&support=1&support_url=&wrapper=1150&sticky=1"></script>
 
 
