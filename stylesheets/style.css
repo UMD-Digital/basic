@@ -13622,6 +13622,67 @@ table tr td {
   outline: 0;
 }
 
+/* line 515, ../sass/_project.scss */
+.pagination {
+  width: 100%;
+}
+/* line 519, ../sass/_project.scss */
+.pagination li:first-child a, .pagination li:last-child a {
+  font-weight: bold;
+  color: #e21833;
+  z-index: 100;
+}
+/* line 524, ../sass/_project.scss */
+.pagination li:first-child a:hover, .pagination li:first-child a:focus, .pagination li:last-child a:hover, .pagination li:last-child a:focus {
+  background-color: transparent !important;
+  color: #900900;
+}
+/* line 530, ../sass/_project.scss */
+.pagination li:first-child {
+  float: left;
+}
+/* line 531, ../sass/_project.scss */
+.pagination li:last-child {
+  float: right;
+}
+/* line 533, ../sass/_project.scss */
+.pagination li a {
+  color: #636363;
+  border: none;
+  text-align: center;
+}
+/* line 541, ../sass/_project.scss */
+.pagination .pagination-inner {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+/* line 549, ../sass/_project.scss */
+.pagination .pagination-inner li {
+  float: initial !important;
+  display: inline-block;
+  text-align: center;
+}
+/* line 555, ../sass/_project.scss */
+.pagination .pagination-inner li:first-child a, .pagination .pagination-inner li:last-child a {
+  font-weight: normal;
+}
+/* line 560, ../sass/_project.scss */
+.pagination .pagination-inner li a {
+  color: #636363;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+/* line 566, ../sass/_project.scss */
+.pagination .pagination-inner li a:hover, .pagination .pagination-inner li a:focus {
+  background-color: #f1f1f1 !important;
+  color: #900900;
+}
+
 /* line 1, ../sass/util/_animations.scss */
 .fadeInUp {
   animation-name: fadeInUp;

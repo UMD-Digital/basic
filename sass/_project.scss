@@ -511,7 +511,66 @@ table {
     }
 }
 
+// Pagination
+.pagination {
+    width: 100%;
+    li {
+        &:first-child, &:last-child {
+            a {
+                font-weight: bold;
+                color: $umd_red;
+                z-index: 100;
 
+                &:hover, &:focus {
+                    background-color: transparent !important;
+                    color: $umd_dkred;
+                }
+            }
+        }
+        &:first-child { float: left; }
+        &:last-child { float: right; }
+
+        a {
+            color: $umd_gray;
+            border: none;
+            text-align: center;
+
+        }
+    }
+
+    .pagination-inner {
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        padding: 0;
+
+        li {
+            float: initial !important;
+            display: inline-block;
+            text-align: center;
+
+            &:first-child, &:last-child {
+                a {
+                    font-weight: normal;
+                }
+            }
+
+             a {
+                color: $umd_gray;
+                display: inline-block;
+                padding: 6px 12px;
+                border-radius: 4px;
+
+                &:hover, &:focus {
+                    background-color: $umd_offwhite !important;
+                    color: $umd_dkred;
+                }
+            }
+        }
+    }
+}
 
 
 
