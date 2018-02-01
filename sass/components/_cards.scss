@@ -312,7 +312,7 @@ filter cards
 	.image-wrapper {
 	    position: relative;
 	    display: block;
-	    padding: 4px 4px 0 4px;
+	    // padding: 4px 4px 0 4px;
 
 	    &:hover {
 			.description {
@@ -451,7 +451,7 @@ Contents below in css format due to grid break/styles breaking
 		.image-wrapper {
 		    position: relative;
 		    display: block;
-		    padding: 4px 4px 0 4px;
+		    // padding: 4px 4px 0 4px;
 
 		    &:hover {
 				.description {
