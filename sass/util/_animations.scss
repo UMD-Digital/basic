@@ -1,15 +1,10 @@
-.fadeInUp{
-    // Default Timing
-    // animation-duration: 1.2s;
-    // -webkit-animation-duration: 1.2s;
-
-
+.fadeInUp {
     animation-name: fadeInUp;
     -webkit-animation-name: fadeInUp;
     animation-duration: 3.4s;
     -webkit-animation-duration: 3.4s;
 }
-@keyframes fadeInUp{
+@keyframes fadeInUp {
     0% {opacity: 0;transform: translate(0px, 30px);}
     40% {opacity: 0;transform: translate(0px, 30px);}
     100% {opacity: 1;transform: translate(0px, 0px);}

@@ -63,6 +63,7 @@ body {
         right: initial !important;
     }
 }
+
 .top-bar {
     padding: 11px 0;
     position: fixed;
@@ -150,6 +151,7 @@ body {
         margin-bottom: 5px;
     }
 }
+
 .nav-container { 
     .dropdown-menu {
         a {
@@ -169,6 +171,7 @@ body {
         }
     }
 }
+
 @include breakpoint(screen-xl) {
     .navbar-default {
         background: rgba(0, 0, 0, 0.75) !important;
