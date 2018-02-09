@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Typography</title>
+    <title>Alerts &amp; Labels</title>
     <meta name="description" content="GitHub repo for testing, styles, and bootstrap kitchen sink.">
-    <link rel="canonical" href="/basic/typography/">
+    <link rel="canonical" href="/basic/alerts-labels/">
 
     <link rel="icon" type="image/x-icon" href="/basic/favicon.ico?">
     <link rel="stylesheet" type="text/css" href="/basic/stylesheets/style.css" />
@@ -110,99 +110,44 @@
                     
                     <div class="col-md-9">
                         <div class="subpage">
-                            <h1 class="crimson red">Typography</h1>
-                            <p>Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists, and more.</p>
+                            <h1 class="crimson red">Alerts &amp; Labels</h1>
+                            <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. Also, documentation and examples for badges, our small count and labeling component.</p>
                             <hr class="hr-lrg">
                         </div>
                         <div class="spaces no-pad-top">
                         		<div class="med-spaces">
-		<h2>Headings</h2>
-		<p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. Two font variations: Source Sans Pro and Crimson Text.</p>
+		<h2>Basic Alert Examples</h2>
+		<p>Wrap any text and an optional dismiss button in <code>.alert</code> and one of the four contextual classes (e.g., <code>.alert-success</code>) for basic alert messages.</p>
 		<hr>
-	    <h1>H1 Crimson Text 68px</h1>
-	    <h2>H2 Crimson Text 42px</h2>
-	    <h2 class="source-sans uppercase">H2 Source Sans 42px</h2>
-	    <h3>H3 Crimson Text 26px</h3>
-	    <h3 class="source-sans uppercase">H3 Source Sans 26px</h3>
-	    <h4>H4 Source Sans 16px</h4>
-	    <h5>H5 Source Sans 16px</h5>
-	    <h6>H6 Source Sans 16px</h6>
+
+		<div class="alert alert-warning" role="alert"><code>.alert-warning</code> - Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+		<div class="alert alert-info" role="alert"><code>.alert-info</code> - Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+		<div class="alert alert-success" role="alert"><code>.alert-success</code> - Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+		<div class="alert alert-danger" role="alert"><code>.alert-danger</code> - Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
 	</div>
 
 	<div class="med-spaces">
-		<h2>Subheader Helper Class</h2>
-		<p>Lighten up your headers by adding a class of <code>.subheader</code> to any header element.</p>
+		<h2>Dismissible Alerts</h2>
+		<p>Build on any alert by adding an optional <code>.alert-dismissible</code> and close button.</p>
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<p class="no-marg-b"><b>Requires JavaScript alert plugin:</b> For fully functioning, dismissible alerts, you must use the <a href="https://getbootstrap.com/docs/3.3/javascript/#alerts">alerts JavaScript plugin</a>.</p>
+			</div>
+		</div>
 		<hr>
-	    <h1 class="subheader">H1 Crimson Text 68px</h1>
-	    <h2 class="subheader">H2 Crimson Text 42px</h2>
-	    <h2 class="source-sans uppercase subheader">H2 Source Sans 42px</h2>
-	    <h3 class="subheader">H3 Crimson Text 26px</h3>
-	    <h3 class="source-sans uppercase subheader">H3 Source Sans 26px</h3>
-	    <h4 class="subheader">H4 Source Sans 16px</h4>
-	    <h5 class="subheader">H5 Source Sans 16px</h5>
-	    <h6 class="subheader">H6 Source Sans 16px</h6>
-	</div>
-	
 
-	<div class="med-spaces">
-		<h2>Intro Paragraphs</h2>
-		<p>Make a paragraph stand out by adding <code>.intro</code>.</p>
-		<hr>
-		<p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum nisl, sed mattis mi. Proin eu posuere lorem. Curabitur facilisis venenatis turpis, at imperdiet neque mattis at. Vivamus aliquet tempor tellus vel malesuada. Fusce a mi vel orci commodo posuere. Sed interdum, nibh in mattis accumsan, arcu justo cursus augue, in efficitur velit ante a metus.</p>
+		<div class="alert alert-warning alert-dismissible" role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong>Warning!</strong> Better check yourself, you're not looking too good.
+		</div>
 	</div>
 
 	<div class="med-spaces">
-		<h2>Paragraph Sections</h2>
-		<p>Stylize the layout of your heading and paragraphs.</p>
-		<hr>
-		<div class="row">
-            <div class="col-md-3">
-                <h4>Section Title</h4>
-            </div>
-            <div class="col-md-9">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum nisl, sed mattis mi. Proin eu posuere lorem. Curabitur facilisis venenatis turpis, at imperdiet neque mattis at. Vivamus aliquet tempor tellus vel malesuada. Fusce a mi vel orci commodo posuere. Sed interdum, nibh in mattis accumsan, arcu justo cursus augue, in efficitur velit ante a metus.</p>
-            </div>
-        </div>
-	</div>
-
-	<div class="med-spaces">
-		<h2>Blockquotes</h2>
-		<p>For quoting blocks of content from another source within your document. Wrap <code class="highlighter-rouge">&lt;blockquote class="blockquote"&gt;</code> around any <abbr title="HyperText Markup Language">HTML</abbr> as the quote.</p>
-		<hr>
-		<blockquote class="blockquote">
-			<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit bibendum nisl, sed mattis mi. Proin eu posuere lorem. Curabitur facilisis venenatis turpis, at imperdiet neque mattis at.</p>
-			<cite class="small" title="Source Title">Source Title</cite>
-		</blockquote>
-	</div>
-
-	<div class="med-spaces">
-		<h2>Description Lists</h2>
-		<p>Align terms and descriptions horizontally by using our grid system’s predefined classes (or semantic mixins). For longer terms, you can optionally add a <code class="highlighter-rouge">.text-truncate</code> class to truncate the text with an ellipsis.</p>
-		<hr>
-		<dl class="row">
-			<dt class="col-sm-3">Description lists</dt>
-			<dd class="col-sm-9">A description list is perfect for defining terms.</dd>
-
-			<dt class="col-sm-3">Euismod</dt>
-			<dd class="col-sm-9">
-				<p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
-				<p>Donec id elit non mi porta gravida at eget metus.</p>
-			</dd>
-
-			<dt class="col-sm-3">Malesuada porta</dt>
-			<dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
-
-			<dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-			<dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
-
-			<dt class="col-sm-3">Nesting</dt>
-			<dd class="col-sm-9">
-				<dl class="row">
-					<dt class="col-sm-4">Nested definition list</dt>
-					<dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
-				</dl>
-			</dd>
-		</dl>
+		<h2>Label Examples</h2>
+		<p>Add <code>.label-default</code> or <code>.label-primary</code> modifier classes to change the appearance of a label.</p>
+		
+		<span class="label label-default">Default</span>
+		<span class="label label-primary">Primary</span>
 	</div>
 
 

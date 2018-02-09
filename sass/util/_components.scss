@@ -1,0 +1,90 @@
+// Code for Demo/Styleguide
+.alert {
+	code {
+		background-color: transparent;
+	}
+	&.alert-danger, &.alert-success {
+		code {
+			color: #fff;
+		}
+	}
+	&.alert-info {
+		code {
+			color: #0288D1;
+		}
+	}
+	&.alert-warning {
+		code {
+			color: #F9A825;
+		}
+	}
+}
+
+
+// Alerts
+.alert {
+	.close {
+		opacity: 0.5;
+	    filter: alpha(opacity=50);
+	}
+}
+// Alert Color Variables
+$alert-success:       	#4CAF50;
+$alert-info:			#B3E5FC;
+$alert-warning:			#FFF9C4;
+
+.alert-success {
+	background-color: $alert-success;
+	color: #ffffff;
+	border-color: $alert-success;
+}
+.alert-info {
+	background-color: $alert-info;
+	color: #0288D1;
+	border-color: $alert-info;
+}
+.alert-warning {
+	background-color: $alert-warning;
+	color: #F9A825;
+	border-color: $alert-warning;
+}
+.alert-danger {
+	background-color: $umd_red;
+	color: #ffffff;
+	border-color: $umd_red;
+}
+
+
+// Labels
+.label {
+	padding: .6em 1.2em .6em;
+	text-transform: uppercase;
+	border-radius: 0;
+
+	&.label-default {
+		background-color: #fff;
+		color: $umd_red;
+		border: 1px solid $umd_midgray;
+	}
+
+	&.label-primary {
+		background-color: $umd_red;
+		color: #fff;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

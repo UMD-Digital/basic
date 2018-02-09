@@ -1,0 +1,116 @@
+h1 {
+    font-family: $font-crimson;
+    font-size: 68px;
+    line-height: 68px;
+    color: $umd_red;
+    margin: 10px 0 20px 0; 
+    
+    @include breakpoint(screen-lg) { font-size: 68px; line-height: 68px; }
+    @include breakpoint(screen-md) { font-size: 55px; line-height: 55px; }
+    @include breakpoint(screen-sm) { font-size: 42px; line-height: 42px; }
+    @include breakpoint(screen-xs) { font-size: 34px; line-height: 34px; }
+
+}
+
+h2 {
+    font-family: $font-crimson;
+    font-size: 42px;
+    line-height: 42px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+
+    @include breakpoint(screen-lg) { font-size: 42px; line-height: 42px; }
+    @include breakpoint(screen-md) { font-size: 34px; line-height: 34px; }
+    @include breakpoint(screen-sm) { font-size: 26px; line-height: 26px; }
+    @include breakpoint(screen-xs) { font-size: 26px; line-height: 26px; }
+}
+h2.source-sans {
+    font-family: $font-main;
+    font-size: 42px;
+    line-height: 42px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    text-transform: uppercase;
+
+    @include breakpoint(screen-lg) { font-size: 42px; line-height: 42px; }
+    @include breakpoint(screen-md) { font-size: 34px; line-height: 34px; }
+    @include breakpoint(screen-sm) { font-size: 26px; line-height: 26px; }
+    @include breakpoint(screen-xs) { font-size: 26px; line-height: 26px; }
+}
+h3 {
+    font-family: $font-crimson;
+    font-size: 26px;
+    line-height: 26px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    font-weight: bold;
+
+    @include breakpoint(screen-lg) { font-size: 26px; line-height: 26px; }
+    @include breakpoint(screen-md) { font-size: 21px; line-height: 21px; }
+    @include breakpoint(screen-sm) { font-size: 21px; line-height: 21px; }
+    @include breakpoint(screen-xs) { font-size: 21px; line-height: 21px; }
+}
+h3.source-sans {
+    font-family: $font-main;
+    font-size: 26px;
+    line-height: 26px;
+    color: $body-color;
+    margin: 10px 0 20px 0; 
+    font-weight: bold;
+    text-transform: uppercase;
+
+    @include breakpoint(screen-lg) { font-size: 26px; line-height: 26px; }
+    @include breakpoint(screen-md) { font-size: 21px; line-height: 21px; }
+    @include breakpoint(screen-sm) { font-size: 21px; line-height: 21px; }
+    @include breakpoint(screen-xs) { font-size: 21px; line-height: 21px; }
+}
+h4 {
+    font-family: $font-main;
+    font-size: 16px;
+    line-height: 16px;
+    color: $umd_red;
+    font-weight: bold;
+    margin: 0 0 20px 0; 
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 26px;
+
+    &.intro {
+        font-size: 21px;
+        line-height: 34px;
+        margin-bottom: 34px;
+
+        @include breakpoint(screen-xs) {
+            font-size: 16px;
+            line-height: 26px;
+        }
+    } 
+}
+
+// H1 PAGE HEADER and SUBHEADER (p)
+.subpage {
+    h1 {
+        font-size: 68px;
+        line-height: 68px;
+        margin: 20px 0;
+        
+        @include breakpoint(screen-lg) { font-size: 68px; line-height: 68px; }
+        @include breakpoint(screen-md) { font-size: 55px; line-height: 55px; }
+        @include breakpoint(screen-sm) { font-size: 42px; line-height: 42px; }
+        @include breakpoint(screen-xs) { font-size: 34px; line-height: 34px; }
+    }
+    p {
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 1px;
+    }
+
+}
+
+// Subheader
+.subheader {
+    font-weight: normal;
+    color: $umd_subheader !important;
+}

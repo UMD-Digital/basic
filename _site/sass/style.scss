@@ -10,6 +10,12 @@
 @import "mixins";
 @import "base";
 
+// Utilities
+@import "util/content";
+@import "util/typography";
+@import "util/components";
+@import "util/animations";
+
 // COMPONENTS - Self-contained components
 @import "components/nav";
 @import "components/footer";
@@ -22,5 +28,3 @@
 // Styles Specific to new project
 @import "project";
 
-// utilities
-@import "util/animations";
