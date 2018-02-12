@@ -10528,7 +10528,7 @@ p.intro {
 }
 /* line 12, ../sass/util/_components.scss */
 .alert.alert-info code {
-  color: #0288D1;
+  color: #ffffff;
 }
 /* line 17, ../sass/util/_components.scss */
 .alert.alert-warning code {
@@ -10550,9 +10550,9 @@ p.intro {
 
 /* line 41, ../sass/util/_components.scss */
 .alert-info {
-  background-color: #B3E5FC;
-  color: #0288D1;
-  border-color: #B3E5FC;
+  background-color: #4070FF;
+  color: #ffffff;
+  border-color: #4070FF;
 }
 
 /* line 46, ../sass/util/_components.scss */

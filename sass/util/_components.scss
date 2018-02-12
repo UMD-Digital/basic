@@ -10,7 +10,7 @@
 	}
 	&.alert-info {
 		code {
-			color: #0288D1;
+			color: #ffffff;
 		}
 	}
 	&.alert-warning {
@@ -30,7 +30,7 @@
 }
 // Alert Color Variables
 $alert-success:       	#4CAF50;
-$alert-info:			#B3E5FC;
+$alert-info:			#4070FF;
 $alert-warning:			#FFF9C4;
 
 .alert-success {
@@ -40,7 +40,7 @@ $alert-warning:			#FFF9C4;
 }
 .alert-info {
 	background-color: $alert-info;
-	color: #0288D1;
+	color: #ffffff;
 	border-color: $alert-info;
 }
 .alert-warning {
